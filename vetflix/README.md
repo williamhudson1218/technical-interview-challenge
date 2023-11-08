@@ -38,5 +38,7 @@ The app will run in development mode, and you can access it in your web browser 
 Interactive User Interface: Vetflix provides a user-friendly interface for easy navigation and exploration of dog breeds.
 
 ### Issues
-The "Add Image" feature in Vetflix is currently experiencing issues. Although images may appear to add correctly, you may notice that the images appear corrupt when attempting to view them. We are actively working on resolving this issue, and your understanding is appreciated.
+* The "Add Image" feature in Vetflix is currently experiencing issues. Although images may appear to add correctly, you may notice that the images appear corrupt when attempting to view them. We are actively working on resolving this issue, and your understanding is appreciated.
+
+* Mocks aren't working properly, ran out of time to troubleshoot further.
 
