@@ -39,4 +39,5 @@ The create_dog_breed endpoint is currently experiencing issues that result in im
 * To make Dogtor even more useful and robust, the following enhancements could be considered:
 Database Integration: Add Ecto, a database library for Elixir, to the application to store and manage dog breed information and images. This would provide a more reliable and scalable solution for data storage.
 * Data Expansion: Expand the APIs to include more detailed information about dog breeds, such as breed characteristics, temperament, history, and care guidelines. This would make the application more informative and comprehensive for users.
+* The project could use some general cleanup including adding moduledocs, etc.
 
