@@ -27,23 +27,19 @@ function DogBreedList() {
   const handleCreateBreed = async () => {
     if (newBreedName && selectedImage) {
       try {
-        // Make API call to create a new dog breed
         await createDogBreed(newBreedName, selectedImage);
 
         setDogBreeds([...dogBreeds, newBreedName]);
 
-        // Reset the input fields and clear validation error
         setNewBreedName("");
         setSelectedImage(null);
         setValidationError("");
         ref.current.files = null;
       } catch (error) {
-        // Handle any API call errors
         console.error("Error creating dog breed:", error);
         setValidationError("Error creating dog breed.");
       }
     } else {
-      // Set a validation error message
       setValidationError("Please provide a breed name and select an image.");
     }
   };
