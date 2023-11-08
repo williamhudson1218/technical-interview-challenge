@@ -1,7 +1,7 @@
 import { gql, useQuery } from "@apollo/client";
 import client from "./apollo";
 
-const DOG_BREEDS_QUERY = gql`
+export const DOG_BREEDS_QUERY = gql`
   query {
     list_dog_breeds
   }

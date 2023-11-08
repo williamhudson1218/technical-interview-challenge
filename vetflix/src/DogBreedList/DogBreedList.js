@@ -30,11 +30,7 @@ function DogBreedList() {
         await createDogBreed(newBreedName, selectedImage);
 
         setDogBreeds([...dogBreeds, newBreedName]);
-
-        setNewBreedName("");
-        setSelectedImage(null);
-        setValidationError("");
-        ref.current.files = null;
+        clearData();
       } catch (error) {
         console.error("Error creating dog breed:", error);
         setValidationError("Error creating dog breed.");
@@ -42,6 +38,13 @@ function DogBreedList() {
     } else {
       setValidationError("Please provide a breed name and select an image.");
     }
+  };
+
+  const clearData = () => {
+    setNewBreedName("");
+    setSelectedImage(null);
+    setValidationError("");
+    ref.current.files = null;
   };
 
   const handleImageUpload = (event) => {
