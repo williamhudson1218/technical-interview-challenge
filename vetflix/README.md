@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Vetflix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vetflix is a web application that provides users with a platform to explore a curated list of dog breeds, view images of each breed, and even contribute by adding new images. This app is perfect for dog enthusiasts and those looking to expand their knowledge of different dog breeds.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+Before you can use Vetflix, make sure to have the "Dogtor" app up and running. Vetflix depends on the "Dogtor" API to access the list of dog breeds and images.
 
-### `npm start`
+To get started with Vetflix, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js: Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+- Vetflix depends on the "Dogtor" app, which provides the data and images for dog breeds. 
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the Vetflix repository to your local machine.
 
-### `npm run build`
+2. Navigate to the project directory.
+`cd vetflix`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the required dependencies.
+`npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the Vetflix app.
+`npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will run in development mode, and you can access it in your web browser at `http://localhost:3000`. The page will automatically reload whenever you make changes, and any lint errors will be displayed in the console.
 
-### `npm run eject`
+### Features
+* View Dog Breeds: Explore a list of various dog breeds, each with a unique set of characteristics and features.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* View Breed Images: View images of specific dog breeds to get a closer look at their appearance and features.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Contribute Images: Add new images to the Vetflix app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Interactive User Interface: Vetflix provides a user-friendly interface for easy navigation and exploration of dog breeds.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Issues
+The "Add Image" feature in Vetflix is currently experiencing issues. Although images may appear to add correctly, you may notice that the images appear corrupt when attempting to view them. We are actively working on resolving this issue, and your understanding is appreciated.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
