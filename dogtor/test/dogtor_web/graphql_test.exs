@@ -44,8 +44,6 @@ defmodule DogtorWeb.GraphqlTest do
       |> Map.get("data")
       |> Map.get("get_image_by_name")
 
-    # Add assertions to check the image content, e.g., its length or specific properties.
-    # For example, if the image is expected to be binary content:
     assert is_binary(data)
     assert byte_size(data) > 0
   end
